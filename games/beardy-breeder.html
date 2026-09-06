@@ -7,51 +7,52 @@
   <meta name="description" content="鬆獅蜥育成所 — 培育、收集、互動，打造屬於你的鬆獅蜥小天地。">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body data-page="beardy">
   <header class="site-header">
-    <a class="brand" href="../"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"></a>
-    <nav class="nav"><a href="../">Home</a><a class="active" href="../#games">Games</a><a href="../#about">About</a><a href="mailto:">Contact</a></nav>
-    <a class="header-cta" href="#wishlist">Wishlist</a>
+    <a class="brand" href="../" aria-label="KOKUTAN GAMES"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"></a>
+    <nav class="nav"><a href="../" data-i18n="nav.home">Home</a><a class="active" href="../#games" data-i18n="nav.games">Games</a><a href="../#about" data-i18n="nav.about">About</a><a href="mailto:" data-i18n="nav.contact">Contact</a></nav>
+    <div class="header-tools"><div class="language-switcher" aria-label="Language"><button type="button" data-lang-btn="zh-Hant">繁中</button><button type="button" data-lang-btn="ja">日本語</button><button type="button" data-lang-btn="en">EN</button></div><a class="header-cta" href="#wishlist" data-i18n="nav.wishlist">願望清單</a></div>
   </header>
 
   <main>
     <section class="detail-hero">
-      <div class="detail-logo"><img src="../assets/beardy-logo.webp" alt="鬆獅蜥育成所 BEARDY BREEDER"></div>
+      <div class="detail-logo"><img src="../assets/beardy-logo.webp" data-logo-localized data-logo-zh="../assets/beardy-logo.webp" data-logo-ja="../assets/beardy-logo-ja.png" data-logo-en="../assets/beardy-logo-en.png" alt="鬆獅蜥育成所"></div>
       <div class="detail-copy">
-        <p class="status">COMING SOON</p>
-        <h1>鬆獅蜥育成所</h1>
-        <p class="lead">培育、收集、互動，打造屬於你的鬆獅蜥小天地。</p>
-        <div class="detail-meta"><span class="chip">PC</span><span class="chip">模擬養成</span><span class="chip">休閒</span><span class="chip">單人遊戲</span></div>
-        <div class="actions"><a class="button primary" href="#wishlist">加入願望清單</a><a class="button secondary" href="#features">查看特色</a></div>
+        <p class="status" data-i18n="game.status">即將推出</p>
+        <h1 data-i18n="game.title">鬆獅蜥育成所</h1>
+        <p class="lead" data-i18n="game.lead">培育、收集、互動，打造屬於你的鬆獅蜥小天地。</p>
+        <div class="detail-meta"><span class="chip">PC</span><span class="chip" data-i18n="tag.sim">模擬養成</span><span class="chip" data-i18n="tag.cozy">休閒療癒</span><span class="chip" data-i18n="tag.single">單人遊戲</span></div>
+        <div class="actions"><a class="button primary" href="#wishlist" data-i18n="cta.wishlist">加入願望清單</a><a class="button secondary" href="#features" data-i18n="cta.features">查看特色</a></div>
       </div>
     </section>
 
     <section class="content-block">
-      <span class="eyebrow">ABOUT THE GAME</span>
-      <h2>一個可以慢慢養、慢慢收集的小世界</h2>
-      <p>《鬆獅蜥育成所》是一款以鬆獅蜥為主題的養成遊戲。你可以培育不同基因與外觀的個體、佈置牠們的生活空間、觀察互動，並逐步完成自己的收集圖鑑。</p>
-      <p>遊戲重點不是追求高壓節奏，而是讓每一隻鬆獅蜥都有自己的樣子，讓玩家在日常中慢慢累積屬於自己的育成紀錄。</p>
+      <span class="eyebrow" data-i18n="about.eyebrow">關於遊戲</span>
+      <h2 data-i18n="about.heading">一個可以慢慢養、慢慢收集的小世界</h2>
+      <p data-i18n="about.p1">《鬆獅蜥育成所》是一款以鬆獅蜥為主題的養成遊戲。你可以培育不同基因與外觀的個體、佈置牠們的生活空間、觀察互動，並逐步完成自己的收集圖鑑。</p>
+      <p data-i18n="about.p2">遊戲重點不是追求高壓節奏，而是讓每一隻鬆獅蜥都有自己的樣子，讓玩家在日常中慢慢累積屬於自己的育成紀錄。</p>
     </section>
 
     <section class="content-block" id="features">
-      <span class="eyebrow">FEATURES</span>
-      <h2>遊戲特色</h2>
+      <span class="eyebrow" data-i18n="features.eyebrow">遊戲特色</span>
+      <h2 data-i18n="features.heading">遊戲特色</h2>
       <div class="detail-features">
-        <div class="detail-feature"><h3>基因培育</h3><p>透過繁殖與基因組合，培育不同花色與特殊外觀的鬆獅蜥。</p></div>
-        <div class="detail-feature"><h3>房間佈置</h3><p>安排飼養空間與裝飾，打造自己的鬆獅蜥房間。</p></div>
-        <div class="detail-feature"><h3>日常互動</h3><p>餵食、照顧、觀察牠們在房間裡活動，以及各種小事件。</p></div>
-        <div class="detail-feature"><h3>圖鑑收集</h3><p>持續收集不同基因與個體，逐步完成專屬圖鑑。</p></div>
+        <div class="detail-feature"><h3 data-i18n="f1.title">基因培育</h3><p data-i18n="f1.body">透過繁殖與基因組合，培育不同花色與特殊外觀的鬆獅蜥。</p></div>
+        <div class="detail-feature"><h3 data-i18n="f2.title">房間佈置</h3><p data-i18n="f2.body">安排飼養空間與裝飾，打造自己的鬆獅蜥房間。</p></div>
+        <div class="detail-feature"><h3 data-i18n="f3.title">日常互動</h3><p data-i18n="f3.body">餵食、照顧、觀察牠們在房間裡活動，以及各種小事件。</p></div>
+        <div class="detail-feature"><h3 data-i18n="f4.title">圖鑑收集</h3><p data-i18n="f4.body">持續收集不同基因與個體，逐步完成專屬圖鑑。</p></div>
       </div>
     </section>
 
     <section class="content-block" id="wishlist">
       <span class="eyebrow">STEAM</span>
-      <h2>願望清單</h2>
-      <p class="note">Steam 商店頁正式公開後，這裡會放上「加入願望清單」連結。目前先保留位置，不放假連結。</p>
-      <a class="back-link" href="../">← 回 KOKUTAN GAMES 首頁</a>
+      <h2 data-i18n="wish.heading">願望清單</h2>
+      <p class="note" data-i18n="wish.note">Steam 商店頁正式公開後，這裡會放上「加入願望清單」連結。目前先保留位置，不放假連結。</p>
+      <a class="back-link" href="../" data-i18n="back">← 回 KOKUTAN GAMES 首頁</a>
     </section>
   </main>
 
-  <footer class="site-footer"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"><div class="footer-links"><a href="../">Home</a><a href="../#games">Games</a><a href="../#about">About</a></div><small>© 2026 KOKUTAN GAMES. All rights reserved.</small></footer>
+  <footer class="site-footer"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"><div class="footer-links"><a href="../" data-i18n="nav.home">Home</a><a href="../#games" data-i18n="nav.games">Games</a><a href="../#about" data-i18n="nav.about">About</a></div><small data-i18n="footer.rights">© 2026 KOKUTAN GAMES. All rights reserved.</small></footer>
+  <script src="../i18n.js" defer></script>
 </body>
 </html>
