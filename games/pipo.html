@@ -7,11 +7,11 @@
   <meta name="description" content="Pipo Desktop Pet — Windows 桌面小寵物。">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body data-page="pipo">
   <header class="site-header">
-    <a class="brand" href="../"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"></a>
-    <nav class="nav"><a href="../">Home</a><a class="active" href="../#games">Games</a><a href="../#about">About</a><a href="mailto:">Contact</a></nav>
-    <a class="header-cta" href="../#games">Games</a>
+    <a class="brand" href="../" aria-label="KOKUTAN GAMES"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"></a>
+    <nav class="nav"><a href="../" data-i18n="nav.home">Home</a><a class="active" href="../#games" data-i18n="nav.games">Games</a><a href="../#about" data-i18n="nav.about">About</a><a href="mailto:" data-i18n="nav.contact">Contact</a></nav>
+    <div class="header-tools"><div class="language-switcher" aria-label="Language"><button type="button" data-lang-btn="zh-Hant">繁中</button><button type="button" data-lang-btn="ja">日本語</button><button type="button" data-lang-btn="en">EN</button></div><a class="header-cta" href="../#games" data-i18n="nav.games">Games</a></div>
   </header>
   <main>
     <section class="detail-hero">
@@ -19,24 +19,25 @@
       <div class="detail-copy">
         <p class="status">RELEASED · v1.1.0</p>
         <h1>Pipo Desktop Pet</h1>
-        <p class="lead">Windows 桌面小寵物。Pipo 會在螢幕上走來走去，陪你待在桌面上。</p>
-        <div class="detail-meta"><span class="chip">Windows</span><span class="chip">免費</span></div>
-        <a class="button primary" href="https://github.com/user-attachments/files/31442920/PipoDesktopPet.zip">下載 Windows 版 v1.1.0</a>
+        <p class="lead" data-i18n="pipo.lead">Windows 桌面小寵物。Pipo 會在螢幕上走來走去，陪你待在桌面上。</p>
+        <div class="detail-meta"><span class="chip">Windows</span><span class="chip" data-i18n="tag.free">免費</span></div>
+        <a class="button primary" href="https://github.com/user-attachments/files/31442920/PipoDesktopPet.zip" data-i18n="download">下載 Windows 版 v1.1.0</a>
       </div>
     </section>
     <section class="content-block">
-      <span class="eyebrow">DOWNLOAD NOTE</span>
-      <h2>Windows 安全性提示</h2>
+      <span class="eyebrow" data-i18n="note.eyebrow">下載說明</span>
+      <h2 data-i18n="note.heading">Windows 安全性提示</h2>
       <div class="download-box">
-        <p>Pipo Desktop Pet 目前尚未使用商業程式碼簽章，因此 Windows 第一次執行時可能顯示「Windows 已保護您的電腦」及「不明的發行者」。</p>
-        <p>這是 Microsoft Defender SmartScreen 對尚未建立信譽之未簽章程式的安全提示，並不代表 Windows 已偵測到病毒。</p>
-        <p><strong>下載檔案：</strong> PipoDesktopPet.zip</p>
-        <p><strong>SHA-256：</strong><br><code>C7DFAC81CF09EB69EFDECF21EA973556B20036E3ED197F6019295B45CFEBD59F</code></p>
-        <p>SHA-256 相同表示下載檔案與本站發布的 ZIP 內容一致。</p>
+        <p data-i18n="note.p1">Pipo Desktop Pet 目前尚未使用商業程式碼簽章，因此 Windows 第一次執行時可能顯示「Windows 已保護您的電腦」及「不明的發行者」。</p>
+        <p data-i18n="note.p2">這是 Microsoft Defender SmartScreen 對尚未建立信譽之未簽章程式的安全提示，並不代表 Windows 已偵測到病毒。</p>
+        <p><strong data-i18n="note.file">下載檔案：</strong> PipoDesktopPet.zip</p>
+        <p><strong data-i18n="note.sha">SHA-256：</strong><br><code>C7DFAC81CF09EB69EFDECF21EA973556B20036E3ED197F6019295B45CFEBD59F</code></p>
+        <p data-i18n="note.p3">SHA-256 相同表示下載檔案與本站發布的 ZIP 內容一致。</p>
       </div>
-      <a class="back-link" href="../">← 回 KOKUTAN GAMES 首頁</a>
+      <a class="back-link" href="../" data-i18n="back">← 回 KOKUTAN GAMES 首頁</a>
     </section>
   </main>
-  <footer class="site-footer"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"><div class="footer-links"><a href="../">Home</a><a href="../#games">Games</a><a href="../#about">About</a></div><small>© 2026 KOKUTAN GAMES. All rights reserved.</small></footer>
+  <footer class="site-footer"><img src="../assets/logo-wide.webp" alt="KOKUTAN GAMES"><div class="footer-links"><a href="../" data-i18n="nav.home">Home</a><a href="../#games" data-i18n="nav.games">Games</a><a href="../#about" data-i18n="nav.about">About</a></div><small data-i18n="footer.rights">© 2026 KOKUTAN GAMES. All rights reserved.</small></footer>
+  <script src="../i18n.js" defer></script>
 </body>
 </html>
