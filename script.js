@@ -12,8 +12,3 @@ nav?.querySelectorAll('a').forEach(link => {
     menuButton?.setAttribute('aria-expanded', 'false');
   });
 });
-
-const rareFullBodyPreview = document.querySelector('.reveal-image-wrap img');
-if (rareFullBodyPreview) {
-  rareFullBodyPreview.src = 'assets/game/rare-fullbody-preview.webp?v=20260907-2';
-}
