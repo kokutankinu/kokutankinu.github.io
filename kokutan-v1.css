@@ -110,8 +110,8 @@ a { color: inherit; }
   background: #090705;
 }
 .gallery-card img.mating-shot {
-  width: min(320px, 82%);
-  max-width: 320px;
+  width: 220px;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
