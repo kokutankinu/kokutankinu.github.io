@@ -12,3 +12,10 @@ nav?.querySelectorAll('a').forEach(link => {
     menuButton?.setAttribute('aria-expanded', 'false');
   });
 });
+
+
+const backToTop = document.getElementById('backToTop');
+backToTop?.addEventListener('click', (event) => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+});
