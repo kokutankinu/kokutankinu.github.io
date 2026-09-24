@@ -37,12 +37,12 @@ a { color: inherit; }
   background: rgba(8, 7, 6, .82);
   border-bottom: 1px solid var(--line);
 }
-.header-inner { max-width: var(--max); margin: 0 auto; min-height: 72px; padding: 0 22px; display: flex; align-items: center; gap: 28px; }
+.header-inner { max-width: var(--max); margin: 0 auto; min-height: 84px; padding: 0 22px; display: flex; align-items: center; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; margin-right: auto; }
-.brand img { width: 42px; height: 42px; border-radius: 50%; }
+.brand img { width: 64px; height: 64px; border-radius: 50%; flex: 0 0 auto; }
 .brand span { display: grid; line-height: 1; letter-spacing: .18em; }
-.brand strong { font-size: 15px; }
-.brand small { color: var(--gold); font-size: 9px; margin-top: 5px; }
+.brand strong { font-size: 14px; }
+.brand small { color: var(--gold); font-size: 8px; margin-top: 5px; }
 .site-nav { display: flex; align-items: center; gap: 28px; }
 .site-nav a { text-decoration: none; color: #ded6ca; font-size: 14px; }
 .site-nav a:hover, .site-nav a:focus-visible { color: var(--gold-bright); }
@@ -131,8 +131,8 @@ a { color: inherit; }
 }
 
 @media (max-width: 680px) {
-  .header-inner { min-height: 64px; padding: 0 16px; }
-  .menu-button { display: inline-flex; background: transparent; color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px 11px; }
+  .header-inner { min-height: 72px; padding: 0 16px; }
+  .brand img { width: 54px; height: 54px; }\n  .brand strong { font-size: 13px; }\n  .brand small { font-size: 7px; }\n  .menu-button { display: inline-flex; background: transparent; color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px 11px; }
   .site-nav { position: absolute; top: 64px; left: 0; right: 0; display: none; flex-direction: column; gap: 0; background: rgba(8,7,6,.98); border-bottom: 1px solid var(--line); padding: 8px 16px 14px; }
   .site-nav.open { display: flex; }
   .site-nav a { width: 100%; padding: 13px 6px; border-bottom: 1px solid rgba(255,255,255,.05); }
